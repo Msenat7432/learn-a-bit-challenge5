@@ -13,22 +13,91 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    font-family: ;
+    
 }
 
-body {
-    background:url("/images/mintbean-dome.png")
-}
+
 
 footer{
   position: fixed;
   bottom:0px;
   width:100%;
   height:40%;
-  background-color: var(--main-bg-color)
+  background-color: var(--second-bg-color)
 
 }
 
-.main-content{
-    display: flex;
+.wrapper{
+  margin-top:50px;
+  
+}
+
+.container{
+  display:flex;
+  text-align: center;
+  width:auto;
+  justify-content:space-between;
+  flex-wrap: wrap;
+  font-family: var(--main-font);
+}
+
+.container .cards i  {
+  
+   height: 100px ;
+   width: 100px;
+   padding: 10px;
+   margin-left: 20px;
+   display: flex;
+   flex-direction: row;
+   border-radius: 50%;
+   font-size: 30px;
+   color:var(--highlight-color);
+  
+  
+}
+
+
+
+
+.container .cards2 {
+width:290px;
+height:100%;
+margin-top: 20px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+line-height:60px;
+
+
+}
+.container .cards2 h2{
+position:relative;
+bottom:10px;
+color: var(--w-color);
+font-size: 10px;
+}
+
+
+
+
+.container .cards2  .mint{
+    height: 40px
+}
+
+.container .cards2  p{
+    color: var(--w-color)
+}
+
+
+.container .cards3 h2  {
+  width: 120px;
+  height: 50px;
+  margin-top: 10px;
+  margin-right: 15px;
+  font-family: var( --second-font);
+  color: var(--highlight-color)
+ 
+ 
+  
+
 }
